@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="LoginExtentTest(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.ExtentReport.LoginTestCustomizeExtentReport">
+        <methods>
+          <include name="tearDownChrome"/>
+          <include name="loginTC_001"/>
+          <include name="loginTC_004"/>
+          <include name="loginTC_003"/>
+          <include name="startReports"/>
+          <include name="getResult"/>
+          <include name="launchChrome"/>
+          <include name="testComplete"/>
+          <include name="loginTC_002"/>
+        </methods>
+      </class> <!-- com.ExtentReport.LoginTestCustomizeExtentReport -->
+    </classes>
+  </test> <!-- LoginExtentTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
