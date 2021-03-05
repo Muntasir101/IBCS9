@@ -1,89 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="67779" started-at="2021-01-02T16:00:15 BDT" finished-at="2021-01-02T16:01:23 BDT">
+  <suite name="Default suite" duration-ms="32040" started-at="2021-01-16T13:15:16 BDT" finished-at="2021-01-16T13:15:48 BDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="67779" started-at="2021-01-02T16:00:15 BDT" finished-at="2021-01-02T16:01:23 BDT">
-      <class name="com.ExtentReport.LoginTestCustomizeExtentReport">
-        <test-method status="PASS" signature="launchChrome()[pri:0, instance:com.ExtentReport.LoginTestCustomizeExtentReport@74ad1f1f]" name="launchChrome" is-config="true" duration-ms="6994" started-at="2021-01-02T16:00:15 BDT" finished-at="2021-01-02T16:00:22 BDT">
+    <test name="Default test" duration-ms="32040" started-at="2021-01-16T13:15:16 BDT" finished-at="2021-01-16T13:15:48 BDT">
+      <class name="com.ExtentReport.LoginTestNormalExtentReport">
+        <test-method status="PASS" signature="launchChrome()[pri:0, instance:com.ExtentReport.LoginTestNormalExtentReport@462d5aee]" name="launchChrome" is-config="true" duration-ms="7205" started-at="2021-01-16T13:15:16 BDT" finished-at="2021-01-16T13:15:23 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchChrome -->
-        <test-method status="PASS" signature="startReports()[pri:0, instance:com.ExtentReport.LoginTestCustomizeExtentReport@74ad1f1f]" name="startReports" is-config="true" duration-ms="167" started-at="2021-01-02T16:00:22 BDT" depends-on-methods="com.Basic.BaseClass.launchChrome" finished-at="2021-01-02T16:00:22 BDT">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.ExtentReport.LoginTestNormalExtentReport@462d5aee]" name="login" duration-ms="24774" started-at="2021-01-16T13:15:23 BDT" finished-at="2021-01-16T13:15:48 BDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startReports -->
-        <test-method status="PASS" signature="loginTC_001()[pri:0, instance:com.ExtentReport.LoginTestCustomizeExtentReport@74ad1f1f]" name="loginTC_001" duration-ms="14586" started-at="2021-01-02T16:00:22 BDT" finished-at="2021-01-02T16:00:37 BDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTC_001 -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ExtentReport.LoginTestCustomizeExtentReport@74ad1f1f]" name="getResult" is-config="true" duration-ms="13" started-at="2021-01-02T16:00:37 BDT" finished-at="2021-01-02T16:00:37 BDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginTC_001 status=SUCCESS method=LoginTestCustomizeExtentReport.loginTC_001()[pri:0, instance:com.ExtentReport.LoginTestCustomizeExtentReport@74ad1f1f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="loginTC_002()[pri:0, instance:com.ExtentReport.LoginTestCustomizeExtentReport@74ad1f1f]" name="loginTC_002" duration-ms="14008" started-at="2021-01-02T16:00:37 BDT" finished-at="2021-01-02T16:00:51 BDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTC_002 -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ExtentReport.LoginTestCustomizeExtentReport@74ad1f1f]" name="getResult" is-config="true" duration-ms="1" started-at="2021-01-02T16:00:51 BDT" finished-at="2021-01-02T16:00:51 BDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginTC_002 status=SUCCESS method=LoginTestCustomizeExtentReport.loginTC_002()[pri:0, instance:com.ExtentReport.LoginTestCustomizeExtentReport@74ad1f1f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="loginTC_003()[pri:0, instance:com.ExtentReport.LoginTestCustomizeExtentReport@74ad1f1f]" name="loginTC_003" duration-ms="13097" started-at="2021-01-02T16:00:51 BDT" finished-at="2021-01-02T16:01:04 BDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTC_003 -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ExtentReport.LoginTestCustomizeExtentReport@74ad1f1f]" name="getResult" is-config="true" duration-ms="1" started-at="2021-01-02T16:01:04 BDT" finished-at="2021-01-02T16:01:04 BDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginTC_003 status=SUCCESS method=LoginTestCustomizeExtentReport.loginTC_003()[pri:0, instance:com.ExtentReport.LoginTestCustomizeExtentReport@74ad1f1f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="loginTC_004()[pri:0, instance:com.ExtentReport.LoginTestCustomizeExtentReport@74ad1f1f]" name="loginTC_004" duration-ms="18503" started-at="2021-01-02T16:01:04 BDT" finished-at="2021-01-02T16:01:22 BDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTC_004 -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ExtentReport.LoginTestCustomizeExtentReport@74ad1f1f]" name="getResult" is-config="true" duration-ms="1" started-at="2021-01-02T16:01:22 BDT" finished-at="2021-01-02T16:01:22 BDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginTC_004 status=SUCCESS method=LoginTestCustomizeExtentReport.loginTC_004()[pri:0, instance:com.ExtentReport.LoginTestCustomizeExtentReport@74ad1f1f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="testComplete()[pri:0, instance:com.ExtentReport.LoginTestCustomizeExtentReport@74ad1f1f]" name="testComplete" is-config="true" duration-ms="356" started-at="2021-01-02T16:01:22 BDT" finished-at="2021-01-02T16:01:23 BDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testComplete -->
-        <test-method status="PASS" signature="tearDownChrome()[pri:0, instance:com.ExtentReport.LoginTestCustomizeExtentReport@74ad1f1f]" name="tearDownChrome" is-config="true" duration-ms="1" started-at="2021-01-02T16:01:23 BDT" depends-on-methods="com.ExtentReport.LoginTestCustomizeExtentReport.testComplete" finished-at="2021-01-02T16:01:23 BDT">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDownChrome()[pri:0, instance:com.ExtentReport.LoginTestNormalExtentReport@462d5aee]" name="tearDownChrome" is-config="true" duration-ms="2" started-at="2021-01-16T13:15:48 BDT" finished-at="2021-01-16T13:15:48 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownChrome -->
-      </class> <!-- com.ExtentReport.LoginTestCustomizeExtentReport -->
+      </class> <!-- com.ExtentReport.LoginTestNormalExtentReport -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
